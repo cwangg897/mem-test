@@ -2,14 +2,14 @@ spring:
   application:
     name: so-simple
   datasource:
-    url: jdbc:mysql://localhost:3306/boards?useSSL=false&serverTimezone=UTC&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3307/test?allowMultiQueries=true
     username: root
     password: 1234
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: validate
     show-sql: true
     properties:
       hibernate:
