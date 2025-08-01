@@ -2,7 +2,7 @@ spring:
   application:
     name: so-simple
   datasource:
-    url: jdbc:mysql://localhost:3307/test?allowMultiQueries=true
+    url: jdbc:mysql://localhost:3306/test?allowMultiQueries=true
     username: root
     password: 1234
     driver-class-name: com.mysql.cj.jdbc.Driver
